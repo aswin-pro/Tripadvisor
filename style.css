@@ -45,6 +45,10 @@ body {
     border: none;
     background-color: whitesmoke;
 }
+.navbar-s3 button:hover{
+    background-color: rgb(50, 48, 46);
+    cursor: pointer;
+}
 
 .navbar-s3 {
     display: flex;
@@ -122,7 +126,10 @@ body {
     font-size: 20px;
 
 }
-
+.search button:hover{
+    background-color: #a5efca;
+    cursor: pointer;
+}
 .search input:focus {
     outline: none;
 }
@@ -155,7 +162,24 @@ p {
 
 .image-card img {
     width: 280px;
-
+}
+.image-card:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+/* changing to absolute*/
+.image-card{
+    position: relative;
+}
+.heading-s1{
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+    font-weight: bold;
+    font-size: 28px;
+    color:whitesmoke ;
+    /* for text visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 /* section two */
@@ -180,7 +204,23 @@ p {
 .desc-two {
     width: 280px;
 }
+.image-card__two:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+/* add to fav btn */
+.image-card__two{
+    position: relative;
+}
 
+.add-to-fav__s2{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.add-to-fav__s2 img{
+    width: 40px;
+}
 /* section three */
 .section-three {
     padding: 30px;
@@ -202,6 +242,23 @@ p {
 .image-card__three img,
 .desc {
     width: 280px;
+}
+.image-card__three :hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+/* add to fav btn */
+.image-card__three{
+    position: relative;
+}
+
+.add-to-fav__s3{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.add-to-fav__s3 img{
+    width: 40px;
 }
 
 /* section four */
@@ -234,6 +291,24 @@ p {
 .desc {
     width: 280px;
 }
+.image-card__four:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+/* add to fav btn */
+.image-card__four{
+    position: relative;
+}
+
+.add-to-fav__s4{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.add-to-fav__s4 img{
+    width: 40px;
+}
+
 
 /* section five */
 .section-five__bg {
@@ -246,7 +321,7 @@ p {
 }
 
 .section-five h2 {
-    margin-top: 110px;
+    margin-top: 10px;
 }
 
 .section-five__container {
@@ -260,9 +335,25 @@ p {
     width: 377px;
     height: 200px;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 1px;
 }
+.image-card__five:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+/* absolute  */
+.image-card__five{
+    position: relative;
+}
+
+.add-to-fav__s5{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+.add-to-fav__s5 img{
+    width: 40px;
+}
+
 
 /* section six */
 .section-six {
@@ -284,6 +375,24 @@ p {
 
 .image-card__six img {
     width: 280px;
+}
+.image-card__six:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+/* changing to absolute*/
+.image-card__six{
+    position: relative;
+}
+.heading-s6{
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+    font-weight: bold;
+    font-size: 28px;
+    color:whitesmoke ;
+    /* for text visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 /* section-seven */
@@ -307,6 +416,10 @@ p {
 .image-card__seven img {
     width: 280px;
     height: 200px;
+}
+.image-card__seven:hover{
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 /* footer */
@@ -370,6 +483,17 @@ p {
 
 /* Media quries */
 /* Navbar section */
+@media screen and (max-width:600px) {
+
+    .navbar-s3 a {
+        display: none;
+    }
+
+    .profile-icon {
+        display: block;
+    }
+
+}
 
 @media (min-width:601px) and (max-width:900px) {
 
@@ -393,16 +517,4 @@ p {
         margin-left: 570px;
         justify-content: flex-end;
     }
-}
-
-@media screen and (max-width:600px) {
-
-    .navbar-s3 a {
-        display: none;
-    }
-
-    .profile-icon {
-        display: block;
-    }
-
 }
