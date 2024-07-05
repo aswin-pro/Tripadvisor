@@ -20,3 +20,11 @@ Technologies Used
 
   CSS: For styling the pages, creating layouts, and ensuring responsiveness.
 
+How to View
+  You can explore the TripAdvisor Clone by visiting https://aswin-pro.github.io/Tripadvisor/
+
+Contributing
+  If you'd like to contribute or suggest improvements, please feel free to open an issue or create a pull request. Your feedback and contributions are highly valued!
+
+Thank you for visiting and exploring my TripAdvisor Clone!
+
