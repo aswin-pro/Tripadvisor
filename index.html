@@ -19,23 +19,24 @@
 <body>
     <!-- Navbar -->
     <div class="navbar">
-        <div class="menu-icon">
-            <i class="fa-solid fa-bars" style="color: #000000;"></i>
+        <div class="profile-icon">
+            <i class="fa-regular fa-user" style="color: #000000;"></i>
         </div>
 
         <div class="navbar-s1">
             <img src="./nav-image/logo.svg" alt="" width="200px">
         </div>
 
-        <div class="profile-icon">
-            <i class="fa-regular fa-user" style="color: #000000;"></i>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars" style="color: #000000;"></i>
         </div>
+
 
         <div class="navbar-s2">
             <a href="">Discover</a>
-            <a href="">Trips</a>
+            <a class="nav-content" href="">Trips</a>
             <a href="">Review</a>
-            <a href="">More</a>
+            <a class="nav-content">More</a>
         </div>
 
         <div class="navbar-s3">
@@ -50,7 +51,7 @@
 
     <!-- Category -->
     <div class="category">
-        <p><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>&nbsp;Search All</p>
+        <p class="active"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>&nbsp;Search All</p>
         <p><i class="fa-solid fa-bed" style="color: #000000;"></i>&nbsp;Hotels</p>
         <p><i class="fa-solid fa-ticket" style="color: #000000;"></i>&nbsp;Things to Do</p>
         <p><i class="fa-solid fa-utensils" style="color: #000000;"></i>&nbsp;Restaurent</p>
@@ -68,15 +69,15 @@
     <!-- section one -->
     <div class="section-one">
         <h2>Go on an Award winning Adventure</h2>
-        <p>2024’s Travellers’ Choice Awards Best of the Best Things To Do </p>
+        <p id="sub-para">2024 Travellers' Choice: Best Things To Do </p>
 
         <div class="section-one__container">
 
             <div class="image-card">
-                <img src="./section-image/img1.jpg" alt="" >
+                <img src="./section-image/img1.jpg" alt="">
                 <div class="heading-s1"> Top experiences</div>
             </div>
-            
+
             <div class="image-card">
                 <img src="./section-image/img2.jpg" alt="">
                 <div class="heading-s1"> Top Attractions</div>
@@ -98,7 +99,7 @@
     <!-- section two -->
     <div class="section-two">
         <h2>You might like these</h2>
-        <p>More things to do in Shibuya </p>
+        <p id="sub-para">More things to do in Shibuya </p>
 
         <div class="section-two__container">
 
@@ -145,7 +146,7 @@
 
     <div class="section-three">
         <h2>Ways to tour Chennai (Madras)</h2>
-        <p>Book these experiences for a close-up look at Chennai (Madras). </p>
+        <p id="sub-para">Book these experiences for a close-up look at Chennai. </p>
 
         <div class="section-three__container">
 
@@ -194,7 +195,7 @@
     <!-- section four -->
     <div class="section-four">
         <h2>Thrilling outdoor adventures</h2>
-        <p>Day trips, hikes, whitewater rafting and more </p>
+        <p id="sub-para">Day trips, hikes, whitewater rafting and more </p>
 
         <div class="section-four__container">
 
@@ -229,7 +230,7 @@
                 <p>from &#8377 3,371 per adult</p>
             </div>
 
-            <div class="image-card__four">
+            <div class="image-card__four" id="lastimg">
                 <img src="./section-image/s4-4.jpg" alt="">
                 <div class="add-to-fav__s4"><img src="./add to fav/favourite.png" alt=""></div>
                 <p class="desc">
@@ -279,7 +280,7 @@
     <!-- section six -->
     <div class="section-six">
         <h2>Top destinations for your next holiday</h2>
-        <p>Here's where your fellow travellers are headed </p>
+        <p id="sub-para">Here's where your fellow travellers are headed </p>
 
         <div class="section-six__container">
 
@@ -295,7 +296,7 @@
 
             <div class="image-card__six">
                 <img src="./section-image/s6-3.jpg" alt="">
-                <div class="heading-s6">Dubai, United, <br> Arab Emirates</div>
+                <div class="heading-s6">Dubai</div>
             </div>
 
             <div class="image-card__six">
@@ -342,6 +343,7 @@
         </div>
     </div>
     </div>
+
 
     <!-- footer -->
     <div class="footer-bg">
@@ -430,14 +432,17 @@
                 <a href="">Terms of Use</a>
                 <a href="">Privacy and Cookies Statement</a>
                 <a href="">Cookie consent</a>
-                <a href="">Site Map</a><br>
+                <a href="">Site Map</a>
                 <a href="">How the site works</a>
                 <a href="">Contact us</a>
-                <p>This is the version of our webiste addressed to speakers of English in India. If you are a resident
-                    of another country <br> or region. please select the appropriate version of Tripadvisor for your
-                    country or region in the drop-sown menu.</p>
+                <!-- <p>This is the version of our webiste addressed to speakers of English in India. If you are a resident
+                    of another country  or region. please select the appropriate version of Tripadvisor for your
+                    country or region in the drop-sown menu.</p> -->
             </div>
         </div>
+    </div>
+    <div class="bounce">
+        <img src="./footer-img/logo.svg" alt="">
     </div>
 </body>
 
